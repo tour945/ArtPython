@@ -1,10 +1,12 @@
-﻿# TransModule.py
+
+# TransModule3.py
 # 2018-03-25
 # python3
 # ubuntu 64bit 16.04
 #
 # namespace is important
 #
+!pip install git+https://github.com/tour945/ArtPython.git
 import shapely
 import numpy
 import ArtPython.setting3
