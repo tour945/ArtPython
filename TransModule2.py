@@ -1,4 +1,5 @@
-﻿# TransModule.py
+
+# TransModule.py
 # 2018-03-25
 # python3
 # ubuntu 64bit 16.04
@@ -8,6 +9,7 @@
 import shapely
 import numpy
 import ArtPython.setting
+#
 #
 # specifying the width and the height of the box in inches
 # declare graphics area
