@@ -3,11 +3,8 @@
 # python3
 # ubuntu 64bit 16.04
 #
-import sys
-# must have this append
-sys.path.append('/home/tour945/0_ipynb/my_package')
 import matplotlib.pyplot as plot
-import TransModule2
+import ArtPython.TransModule2
 #
 def graphic_area(width, height):
     global tup7
