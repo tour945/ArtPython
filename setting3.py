@@ -1,8 +1,9 @@
-﻿# setting.py
+# setting.py
 # 2018-03-28
 # python3
 # ubuntu 64bit 16.04
 #
+!pip install git+https://github.com/tour945/ArtPython.git
 import matplotlib.pyplot as plot
 import ArtPython.TransModule3
 #
