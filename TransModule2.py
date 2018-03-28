@@ -3,13 +3,11 @@
 # python3
 # ubuntu 64bit 16.04
 #
-# 求斜率
-#
 # namespace is important
 #
 import shapely
 import numpy
-import setting
+import ArtPython.setting
 #
 # specifying the width and the height of the box in inches
 # declare graphics area
@@ -41,6 +39,8 @@ def set_graphic_area(width,height) :
     return (box_width*cm2inch,box_height*cm2inch,top_value,bottom_value,left_value,right_value,width)
 #
 # end of def
+#
+# 求斜率
 #
 def slope(p1, p2) :
     if (p2[0] - p1[0]) == 0:
